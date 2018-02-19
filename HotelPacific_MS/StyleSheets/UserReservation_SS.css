@@ -1,0 +1,11 @@
+﻿body {
+    background-color: white;
+}
+
+.textboxStyle {
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 3px;
+    border: 1px solid silver;
+}
+

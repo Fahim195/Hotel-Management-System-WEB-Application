@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminUse.Master.cs" Inherits="HotelPacific_MS.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>User Reservatin</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="../bootstrap/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../bootstrap/BootstrapDatepicker/css/datepicker.css" rel="stylesheet" />
+    <script src="../bootstrap/BootstrapDatepicker/js/bootstrap-datepicker.js"></script>
+    <link href="StyleSheets/Home_User_SS.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="row container-fluid" style="height: 80px; background-color: red;">
+            <p><i class="far fa-save"></i>Navbar</p>
+        </div>
+        <div class="container-fluid ">
+            <asp:ContentPlaceHolder ID="admminUserMasterPage" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

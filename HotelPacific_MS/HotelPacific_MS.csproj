@@ -1,0 +1,327 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BCD459D-A24D-4298-9377-6BB1EF99127F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HotelPacific_MS</RootNamespace>
+    <AssemblyName>HotelPacific_MS</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdminLoginPanel.aspx" />
+    <Content Include="bootstrap\BootstrapDatepicker\css\datepicker.css" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\bootstrap-datepicker.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.bg.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.ca.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.cs.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.da.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.de.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.el.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.es.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.fi.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.fr.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.he.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.hr.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.id.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.is.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.it.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.ja.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.kr.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.lt.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.lv.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.ms.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.nb.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.nl.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.pl.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.pt-BR.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.pt.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.ro.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.rs-latin.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.rs.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.ru.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.sk.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.sl.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.sv.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.sw.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.th.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.tr.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.uk.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.zh-CN.js" />
+    <Content Include="bootstrap\BootstrapDatepicker\js\locales\bootstrap-datepicker.zh-TW.js" />
+    <Content Include="bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="bootstrap\css\bootstrap.css.map" />
+    <Content Include="bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="font-awesome-4.7.0\less\animated.less" />
+    <Content Include="font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="font-awesome-4.7.0\less\core.less" />
+    <Content Include="font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="font-awesome-4.7.0\less\icons.less" />
+    <Content Include="font-awesome-4.7.0\less\larger.less" />
+    <Content Include="font-awesome-4.7.0\less\list.less" />
+    <Content Include="font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="font-awesome-4.7.0\less\path.less" />
+    <Content Include="font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="font-awesome-4.7.0\less\variables.less" />
+    <Content Include="font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_variables.scss" />
+    <None Include="packages.config" />
+    <Content Include="PacificHMSResources\GridViewBackground.jpg" />
+    <Content Include="Scripts\CheckIn_JS.js" />
+    <Content Include="Scripts\CheckOut_JS.js" />
+    <Content Include="Scripts\Payment_JS.js" />
+    <Content Include="Scripts\Reservation_JS.js" />
+    <Content Include="StyleSheets\AdminUIstyles\CheckIN_SS.css" />
+    <Content Include="StyleSheets\AdminUIstyles\generator_config.txt" />
+    <Content Include="StyleSheets\AdminUIstyles\montserrat-regular-demo.html" />
+    <Content Include="StyleSheets\AdminUIstyles\Payment_SS.css" />
+    <Content Include="StyleSheets\AdminUIstyles\Reservation_SS.css" />
+    <Content Include="StyleSheets\AdminUIstyles\specimen_files\grid_12-825-55-15.css" />
+    <Content Include="StyleSheets\AdminUIstyles\specimen_files\specimen_stylesheet.css" />
+    <Content Include="StyleSheets\AdminUIstyles\stylesheet.css" />
+    <Content Include="StyleSheets\AdminUIstyles\CheckOut.css" />
+    <Content Include="UI\AdminUse.Master" />
+    <Content Include="StyleSheets\AdminUIstyles\montserrat-regular-webfont.ttf" />
+    <Content Include="StyleSheets\AdminUIstyles\montserrat-regular-webfont.woff" />
+    <Content Include="StyleSheets\AdminUIstyles\montserrat-regular-webfont.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\css\bootstrap.css" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\jquery.min.js" />
+    <Content Include="bootstrap\js\bootstrap.js" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap\js\npm.js" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Home_User.aspx" />
+    <Content Include="PacificHMSResources\AdminLoginUIBackground.jpg" />
+    <Content Include="PacificHMSResources\Home_User_UI_background.jpg" />
+    <Content Include="PacificHMSResources\Food.jpg" />
+    <Content Include="PacificHMSResources\frontView.jpg" />
+    <Content Include="PacificHMSResources\InnerDecoration.jpg" />
+    <Content Include="PacificHMSResources\logo.png" />
+    <Content Include="PacificHMSResources\PoolSideView.jpg" />
+    <Content Include="PacificHMSResources\restaurentDecoration.jpg" />
+    <Content Include="PacificHMSResources\RoomDecoration.jpg" />
+    <Content Include="PacificHMSResources\ServicesTagSticker.png" />
+    <Content Include="PacificHMSResources\ServiceTagBackgroung.png" />
+    <Content Include="PacificHMSResources\TransportService1.jpg" />
+    <Content Include="PacificHMSResources\TransportService2.jpg" />
+    <Content Include="StyleSheets\Home_User_SS.css" />
+    <Content Include="StyleSheets\LoginUI_Admin_SS.css" />
+    <Content Include="StyleSheets\UserReservation_SS.css" />
+    <Content Include="UI\CheckIN.aspx" />
+    <Content Include="UI\CheckOut.aspx" />
+    <Content Include="UI\Payment.aspx" />
+    <Content Include="UI\Reservation.aspx" />
+    <Content Include="UserReservationForm.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminLoginPanel.aspx.cs">
+      <DependentUpon>AdminLoginPanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLoginPanel.aspx.designer.cs">
+      <DependentUpon>AdminLoginPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\CheckInBLL.cs" />
+    <Compile Include="BLL\CheckOutBLL.cs" />
+    <Compile Include="BLL\PaymentBLL.cs" />
+    <Compile Include="BLL\ReservationBLL.cs" />
+    <Compile Include="DAL\CheckInDAL.cs" />
+    <Compile Include="DAL\CheckOutDAL.cs" />
+    <Compile Include="DAL\DAO\Cost.cs" />
+    <Compile Include="DAL\DAO\Customer.cs" />
+    <Compile Include="DAL\DAO\DBconnection.cs" />
+    <Compile Include="DAL\DAO\Record.cs" />
+    <Compile Include="DAL\DAO\Room.cs" />
+    <Compile Include="DAL\DAO\SystemAccess.cs" />
+    <Compile Include="DAL\PaymentDAL.cs" />
+    <Compile Include="DAL\ReservationDAL.cs" />
+    <Compile Include="Home_User.aspx.cs">
+      <DependentUpon>Home_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home_User.aspx.designer.cs">
+      <DependentUpon>Home_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\AdminUse.Master.cs">
+      <DependentUpon>AdminUse.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\AdminUse.Master.designer.cs">
+      <DependentUpon>AdminUse.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CheckIN.aspx.cs">
+      <DependentUpon>CheckIN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CheckIN.aspx.designer.cs">
+      <DependentUpon>CheckIN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CheckOut.aspx.cs">
+      <DependentUpon>CheckOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CheckOut.aspx.designer.cs">
+      <DependentUpon>CheckOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Reservation.aspx.cs">
+      <DependentUpon>Reservation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Reservation.aspx.designer.cs">
+      <DependentUpon>Reservation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserReservationForm.aspx.cs">
+      <DependentUpon>UserReservationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserReservationForm.aspx.designer.cs">
+      <DependentUpon>UserReservationForm.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>26232</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:26232/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

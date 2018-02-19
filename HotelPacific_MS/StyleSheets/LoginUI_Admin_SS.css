@@ -1,0 +1,57 @@
+﻿body {
+    background-image: url('../PacificHMSResources/AdminLoginUIBackground.jpg');
+    background-repeat:no-repeat ;
+}
+#LoginUIElementContainer {
+    width: 370px;
+    height: 400px;
+    background-color: red;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-25%);
+    border-radius: 7px;
+    box-shadow: 1px 0px 1px 1px black;
+    background-color:rgba(248, 240, 240, 0.08);
+}
+.Log_inTag {
+    color: white;
+    font-family: 'Segoe UI';
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    text-shadow: 4px 1px 1px black;
+}
+#TextBox1{
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#TextBox2 {
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#Button1 {
+    width: 100%;
+    font-size: 20PX;
+    border-radius: 5px;
+    padding:0px,2px,0px,2px;
+    background-color: #5EBA7D;
+    border: 1px solid #5EBA7D;
+}
+    #Button1:hover {
+        background-color: rgba(0,0,0,.8);
+        border: 1px solid white;
+    }
+#CheckBox1 + label{
+   color:white;
+   font-size:15px;  
+}
+#forgotPasswordTag{
+    color:whitesmoke;
+}
+#forgotPasswordTag i{
+    color:red;
+}
+

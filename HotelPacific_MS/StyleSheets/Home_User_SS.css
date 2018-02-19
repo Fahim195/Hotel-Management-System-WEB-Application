@@ -1,0 +1,224 @@
+﻿body {
+    background-color: lightgrey;
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    z-index: 1; 
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: black;
+    line-height: 10px;
+    text-align: center;
+}
+
+    .icon:hover {
+        color: darkblue;
+    }
+#firstpanel {
+    background-color: #FFFFFF;
+}
+
+#connectWithUsTAG {
+    line-height: 10px;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: currentColor;
+    max-height: 250px;
+    min-height: 30px;
+}
+
+
+#bs-example-navbar-collapse-1 ul li a {
+    color: white;
+    padding-bottom: 8px;
+}
+
+.navbar .navbar-header a {
+    color: white;
+    font-weight: 500;
+}
+
+#bs-example-navbar-collapse-1 ul li a:hover {
+    border-bottom: 2px solid #F39C11;
+    background-color: rgba(0, 0, 0,.4);
+}
+
+/*Carousel Designs*/
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    margin-top: 2px;
+    height: 80vh;
+}
+
+    .fade-carousel .carousel-inner .item {
+        height: 80vh;
+    }
+
+    .fade-carousel .carousel-indicators > li {
+        margin: 0 2px;
+        background-color: #f39c12;
+        border-color: #f39c12;
+        opacity: .7;
+    }
+
+        .fade-carousel .carousel-indicators > li.active {
+            width: 10px;
+            height: 10px;
+            opacity: 1;
+        }
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -moz-transform: translate3d(-50%,-50%,0);
+    -ms-transform: translate3d(-50%,-50%,0);
+    -o-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+    .hero h1 {
+        font-size: 6em;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    /*-ms-transition: 2s all ease-in-out .1s;*/
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    /*-ms-transition: 2s all ease-in-out .1s;*/
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+    height: 30%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
+}
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5,
+.fade-carousel .slides .slide-6,
+.fade-carousel .slides .slide-7,
+.fade-carousel .slides .slide-8 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+    background-image: url('../PacificHMSResources/frontView.jpg');
+}
+.fade-carousel .slides .slide-2 {
+    background-image: url('../PacificHMSResources/PoolSideView.jpg');
+}
+.fade-carousel .slides .slide-3 {
+    background-image: url('../PacificHMSResources/RoomDecoration.jpg');
+}
+.fade-carousel .slides .slide-4 {
+    background-image: url('../PacificHMSResources/restaurentDecoration.jpg');
+}
+.fade-carousel .slides .slide-5 {
+    background-image: url('../PacificHMSResources/Food.jpg');
+}
+.fade-carousel .slides .slide-6 {
+    background-image: url('../PacificHMSResources/InnerDecoration.jpg');
+
+}
+.fade-carousel .slides .slide-7 {
+    background-image: url('../PacificHMSResources/TransportService1.jpg');
+}
+.fade-carousel .slides .slide-8 {
+    background-image: url('../PacificHMSResources/TransportService2.jpg');
+}
+#ServicesTagSticker {
+}
+ #ServicesTagSticker h1 {
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Maiandra GD';
+        color: black;
+    }
+#ServicesTagSticker p {
+        text-align: center;
+        font-size: 30px;
+}
+#serviceList {
+    padding-bottom: 30px;
+}
+#ServiceListHolder {
+    height: 150px;
+    width: 400px;
+    margin-left: 50%;
+    transform: translate(-50%,15%);
+    background-color: rgba(0,0,0,.4);
+    border-radius: 5px;
+}
+#ServiceListHolder_Icon {
+    color: white;
+}
+#serviceListBackground {
+    background-image: url('../PacificHMSResources/ServiceTagBackgroung.png');
+}
+#ServiceListHolder h3 {
+    color: white;
+}
+#footers {
+    background-color: #333333;
+}
+#footers p {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: white;
+        text-align: center;
+        font-family: 'Segoe UI';
+}
+
+

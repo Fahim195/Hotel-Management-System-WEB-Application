@@ -1,0 +1,118 @@
+﻿body {
+    padding-top:4px;
+    background-color: white;
+}
+
+.textboxStyle {
+    height: 30px;
+    width: 176px;
+    border-radius: 3px;
+    padding-left: 3px;
+    border: 1px solid silver;
+}
+td {
+    padding-top: 7px;
+}
+.textboxContainer {
+    background-color: rgba(230, 222, 222, 0.53);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+.textboxSubContainer1 {
+    
+}
+.textboxSubContainer2 {
+    
+}
+.form-control.textboxStyle.DoB, .form-control.textboxStyle.ReservationDate, .form-control.textboxStyle.CheckInDate, .form-control.textboxStyle.CheckOutDate {
+    width: 136px;
+}
+
+.roomGridInfo th {
+    
+    background-image: url('../../PacificHMSResources/GridViewBackground.jpg');
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+.roomGridInfo td {
+    text-align:center;
+    padding-top:2px;
+    padding-bottom:2px;
+    font-size:14px;
+}
+.roomGridInfo {
+    border:none;
+    border-radius: 5px;
+}
+.roomGridInfo tr {
+        border-bottom:1px solid silver;
+
+} 
+.roomGridInfo td {
+        border:none;
+}
+.roomGridInfo tr:hover {
+  background-color: rgba(211, 211, 211, 0.53);
+}
+.rmStsGridview td{
+    font-size:10px;
+    color:darkblue;  
+}
+
+.gvContainer {
+    width: 184px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    height: 400px;
+}
+.gvContainer2 {
+    border: 2px solid silver;
+    border-radius: 5px;
+    height: 400px;
+    width: 183px;
+}
+.btnAction {
+    border-radius: 4px;
+    background-color: #361E75;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    
+}
+.clearbtnAction {
+    width: 157px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #361E75;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: -7px;
+}
+.btnContainer {
+    background-color: darkslateblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btnAction:hover {
+    background-color: initial;
+    border: 1px solid blanchedalmond;
+    text-decoration: none;
+    color:white;
+}
+.clearbtnAction:hover {
+    background-color: initial;
+    border: 1px solid blanchedalmond;
+   
+}
+.txtLebel{
+    
+}

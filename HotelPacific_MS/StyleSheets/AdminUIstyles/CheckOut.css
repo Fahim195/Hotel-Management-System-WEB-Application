@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 4px;
+    background-color: white;
+}
+
+.textboxStyle {
+    height: 30px;
+    width: 176px;
+    border-radius: 3px;
+    padding-left: 3px;
+    border: 1px solid silver;
+}
+
+td {
+    padding-top: 25px;
+}
+
+.textboxContainer {
+    background-color: rgba(230, 222, 222, 0.53);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+
+.input-group .form-control {
+    width: 140px;
+}
+
+.costTextBoxes {
+    font-size: 25px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.costTextBoxesContainer {
+    margin-top: 30%;
+}
+
+.btnAction {
+    border-radius: 4px;
+    background-color: #361E75;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.clearbtnAction {
+    width: 157px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #361E75;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: -7px;
+}
+
+.btnContainer {
+    background-color: darkslateblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btnAction:hover {
+    background-color: initial;
+    border: 1px solid blanchedalmond;
+    text-decoration: none;
+    color: white;
+}
+
+.clearbtnAction:hover {
+    background-color: initial;
+    border: 1px solid blanchedalmond;
+}
+
+.textboxSuBContainer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

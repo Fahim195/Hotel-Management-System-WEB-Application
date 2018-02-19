@@ -1,0 +1,9 @@
+C:\Users\fahim\source\repos\HotelPacific_MS\HotelPacific_MS\bin\HotelPacific_MS.dll.config
+C:\Users\fahim\source\repos\HotelPacific_MS\HotelPacific_MS\bin\HotelPacific_MS.dll
+C:\Users\fahim\source\repos\HotelPacific_MS\HotelPacific_MS\bin\HotelPacific_MS.pdb
+C:\Users\fahim\source\repos\HotelPacific_MS\HotelPacific_MS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fahim\source\repos\HotelPacific_MS\HotelPacific_MS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fahim\source\repos\HotelPacific_MS\HotelPacific_MS\obj\Debug\HotelPacific_MS.csprojResolveAssemblyReference.cache
+C:\Users\fahim\source\repos\HotelPacific_MS\HotelPacific_MS\obj\Debug\HotelPacific_MS.dll
+C:\Users\fahim\source\repos\HotelPacific_MS\HotelPacific_MS\obj\Debug\HotelPacific_MS.pdb
+C:\Users\fahim\source\repos\HotelPacific_MS\HotelPacific_MS\obj\Debug\HotelPacific_MS.csproj.CoreCompileInputs.cache
